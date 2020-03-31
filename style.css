@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+}
+
+#page{
+    display: flex;
+	flex-direction: column;
+    min-height: 100vh;
+}
+
+#head{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex:1;
+
+}
+
+footer{
+    background: #f2f2f2;
+    height: 10vh;
+}
+
+#bot
+{
+    background: #f2f2f2;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1% 0 0 0;
+}
+
+.bouton1{
+    background: #f2f2f2;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    width: 154px;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+}
+
+.bouton1:hover{
+    background: #f8f8f8;
+    border: 1px solid grey;
+}
+
+.bouton2{
+    background: #4285f4;
+    font-size: 14px;
+    margin: -10px 0px 0px 15px;
+    padding: 10px 16px;
+    height: 36;
+    cursor: pointer;
+    border: 1px solid #4285f4;
+    border-radius: 5%;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text
+{
+    margin: 1% 0px 0px -12px;
+    padding: 0px 0px 0px 27px;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.textLien
+{
+    padding: 0px 13px;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    text-align: center;
+}
+
+.textLien:hover{
+    text-decoration: underline;
+}
+
+.revers{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+    margin: 0px 0 0 15px;
+}
+
+.blue{
+    margin: -10px 0 0 0;
+    color: blue;
+}
+
+.blue:hover{
+    text-decoration: underline;
+}
+
+.black:hover{
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+.input{
+    height: 34px;
+    width: 487px;
+    border-radius: 50px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.gif{
+    margin: -22px 0px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+}
